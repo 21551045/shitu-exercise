@@ -4,3 +4,5 @@ node_js:
 before_install: npm install -g karma
 install: npm install
 script: npm test
+addons:
+  chrome: stable 
