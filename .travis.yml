@@ -1,2 +1,4 @@
 language: node_js
-script: true
+before_install: npm install -g karma
+install: npm install
+script: npm test
